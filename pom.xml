@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.adhiraj.jokes</groupId>
-	<artifactId>jokeapp</artifactId>
+	<artifactId>spring-5-jokeapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>sping-5-jokeapp</name>
+	<name>spring-5-jokeapp</name>
 	<description>jokeapp</description>
 
 	<parent>
