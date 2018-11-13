@@ -1,18 +1,16 @@
 package com.adhiraj.jokeapp.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 @Service
-@Primary
-public class JokeServiceImpl implements JokeService {
+public class JokeServiceImpl2 implements JokeService {
 
   private final ChuckNorrisQuotes chuckNorrisQuotes;
 
   @Autowired
-  public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
+  public JokeServiceImpl2(ChuckNorrisQuotes chuckNorrisQuotes) {
     this.chuckNorrisQuotes = chuckNorrisQuotes;
   }
 
